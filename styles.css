@@ -1,0 +1,171 @@
+
+body{
+    background-color: white;
+}
+#page-wrapper{
+    width: 100%;
+    height: 100px;
+    background-color:#EB013C;
+    position:fixed;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    padding: 20px;
+    justify-content: space-between;
+}
+#head{
+display:flex;
+justify-content: center;
+align-items:center;
+}
+#header-img{
+    width: 100px;
+    height:80px;
+    dispaly:block;
+    object-fit: contain;
+}
+#nav-bar{
+    width:500px;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+#nav-bar div {
+    font-size: 2em;
+    color:white;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+#top{
+    padding: 150px;
+    display: block;
+    text-align: center;
+     
+    
+}
+h2{
+    font-size: 4em;
+}   
+#email{
+    width:500px;
+    height:40px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 4px;
+
+}
+.btn{
+    background-color:#EB013C;
+    color:white
+}
+
+#features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.or{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 50px;
+    
+}
+
+.icons{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height:10em;
+    width: 10em;
+    color:#EB013C;
+    padding-right: 50px;
+
+
+}
+
+.fa-3x {
+    font-size: 7em;
+}
+#or{
+    padding-right: 30px;
+}
+#video{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding-bottom: 30px;
+
+
+}
+.menu{
+    display: flex;
+    background-color: white;
+    justify-content:space-around;
+    align-items: center;
+    height:130px;
+    width:80%;
+    flex-direction: row;
+    
+
+
+}
+.food{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:20px;
+    height: 20px;
+
+}
+.food div{
+    margin-top: -10px;
+}
+.tmenu{
+    display: flex;
+    background-color: white;
+    justify-content:space-between;
+    align-items: center;
+    height:130px;
+    width:80%;
+    flex-direction: row;
+    padding-left: 300px;
+    margin-top: -70px;
+    padding-bottom: 40px;
+}
+#footer{
+    display: flex;
+    background-color:#EB013C ;
+    justify-content:flex-end;
+    align-items: center;
+    flex-direction: column;
+    width:100%;
+    color:white;
+
+
+}
+#afooter{
+    display: flex;
+    width:100%;
+    justify-content:flex-end;
+    align-items: center;
+    flex-direction: row;
+    padding: 20px;
+
+}
+
+#afooter div { 
+    padding-right: 20px;
+    padding-left: 10px;
+}
+    
